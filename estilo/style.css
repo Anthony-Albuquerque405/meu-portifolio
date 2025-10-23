@@ -36,6 +36,10 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  position: sticky; /* Mantém o cabeçalho fixo no topo */
+  top: 0; /* Define a posição do cabeçalho */
+  z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
 }
 
 nav#menu ul {
