@@ -1,2 +1,14 @@
-# meu-portifolio
-Construção do meu Portfólio
+# Meu Portfólio 🎨💻
+
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, experiências e projetos como desenvolvedor. Aqui você encontrará uma vitrine interativa e responsiva que reflete minha trajetória profissional e técnica.
+
+## ✨ Sobre o Projeto
+
+Este portfólio foi construído com foco em simplicidade, elegância e funcionalidade. Ele serve como cartão de visitas digital, permitindo que recrutadores, colegas e visitantes conheçam mais sobre mim e meu trabalho.
+
+### Principais características
+
+- **Design responsivo**: adaptado para diferentes tamanhos de tela (desktop, tablet e mobile), usando de tecnologias como Flexbox e Grid layout
+- **Seções organizadas**: incluindo sobre mim, habilidades, projetos, contato e redes sociais
+- **Código limpo e modular**: fácil de manter e expandir
+- **Tecnologias utilizadas**: HTML, CSS, JavaScript 
