@@ -11,4 +11,17 @@ Este portfólio foi construído com foco em simplicidade, elegância e funcional
 - **Design responsivo**: adaptado para diferentes tamanhos de tela (desktop, tablet e mobile), usando de tecnologias como Flexbox e Grid layout
 - **Seções organizadas**: incluindo sobre mim, habilidades, projetos, contato e redes sociais
 - **Código limpo e modular**: fácil de manter e expandir
-- **Tecnologias utilizadas**: HTML, CSS, JavaScript 
+- **Tecnologias utilizadas**: HTML, CSS, JavaScript
+
+  ## 📌 Objetivos
+
+- Consolidar minha presença online como desenvolvedor  
+- Compartilhar meus projetos com a comunidade  
+- Facilitar o contato com recrutadores e colaboradores
+
+## 📫 Contato
+
+Caso queira entrar em contato, você pode me encontrar em:
+
+- [LinkedIn](https://www.linkedin.com/in/anthony-albuquerque-97334034b/)  
+- [Email](mailto:anthonyhitnailbr@gmail.com)
