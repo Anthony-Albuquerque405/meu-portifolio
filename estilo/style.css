@@ -31,7 +31,7 @@ body.escuro {
   --fundo-principal: #222222;
   --texto: #e0e0e0;
   --texto-inverso: #333333;
-  --destaque: #3ddf2e;
+  --destaque: #5adf2e;
   --destaque-inverso: #ea8567;
   --fundo-card: #444444;
 }
@@ -188,11 +188,21 @@ article#video .video-conteiner {
   gap: 15px;
 }
 #formacao-conteiner .curso {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   background-color: var(--fundo-principal);
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   padding-left: 8px;
   transition: border-left-width 0.5s, border-color 0.5s;
+}
+#formacao-conteiner .fotos {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px;
 }
 #formacao-conteiner .curso:hover {
   border-left-width: 15px;
@@ -223,6 +233,9 @@ article#video .video-conteiner {
   border-radius: 8px;
   border-left: 9px solid var(--destaque-inverso);
   transition: border-left-width 0.5s, border-color 0.5s;
+
+  text-align: justify;
+  text-indent: 16px;
 }
 #projeto-conteiner .projeto:hover {
   border-left-width: 15px;
