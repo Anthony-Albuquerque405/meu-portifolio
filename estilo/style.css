@@ -14,6 +14,11 @@
 --fundo-card: #ffffff;
 */
 
+/*tema escuro*
+#f89448
+#ea8567
+*/
+
 :root {
   --fundo-principal: #f3f3f3;
   --texto: #000000;
@@ -22,12 +27,23 @@
   --destaque-inverso: #3bc4ea;
   --fundo-card: #ffffff;
 }
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #3ddf2e;
+  --destaque-inverso: #ea8567;
+  --fundo-card: #444444;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.5s, color 0.5s;
 }
+
 header {
   background-color: var(--destaque);
   color: var(--texto);
