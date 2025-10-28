@@ -57,6 +57,7 @@ header {
   top: 0; /* Fixa o cabeçalho no topo da janela */
   z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
 }
+
 nav#menu ul {
   list-style: none;
   display: flex;
@@ -74,12 +75,14 @@ nav#menu a:hover {
   background-color: var(--destaque-inverso);
   color: var(--destaque);
 }
+
 main {
   display: grid;
   grid-template-columns: auto 90vw auto;
   gap: 20px;
   margin-top: 20px;
 }
+
 section#ficha {
   background-color: var(--fundo-card);
   padding: 20px;
@@ -107,6 +110,7 @@ section#ficha p {
   text-align: justify;
   text-indent: 16px;
 }
+
 div#social {
   display: flex;
   justify-content: center;
@@ -127,6 +131,7 @@ div#social a:hover {
 section#detalhes {
   grid-column: 2;
 }
+
 article {
   background-color: var(--fundo-card);
   padding: 20px;
@@ -145,6 +150,7 @@ article#apresentacao h4 {
   margin-bottom: 4px;
   color: var(--destaque-inverso);
 }
+
 #skills-conteiner {
   display: grid;
   grid-template-columns: 1fr;
@@ -280,6 +286,16 @@ article#apresentacao h4 {
   overflow: hidden;
   border-radius: 8px;
 }
+#projeto-conteiner .projeto-info .periodo {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--texto);
+}
+#projeto-conteiner .titulo a {
+  color: var(--destaque-inverso);
+  text-decoration: none;
+}
+
 footer {
   background-color: var(--destaque);
   color: var(--texto-inverso);
